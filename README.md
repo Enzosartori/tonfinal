@@ -1,6 +1,6 @@
 # Como utilizar a API REST
 
-Passo a passo para utilização da API REST criada para solucionar o case "Desafio 2", utilizando o Windows como sistema operacional.
+Passo a passo para utilização da API REST criada para solucionar o case "Desafio 2".
 
 
 
@@ -17,7 +17,7 @@ DELETE - Apaga um valor no banco de dados
 
 ### GET:
 
-Entra na url: 	https://basefuncton.herokuapp.com/users para visualizar toda a base de dados
+Entrar na url: 	https://basefuncton.herokuapp.com/users para visualizar toda a base de dados
 		https://basefuncton.herokuapp.com/users/id , substituindo "id" pelo id do usuário você terá apenas as informações daquele usuário
 
 
