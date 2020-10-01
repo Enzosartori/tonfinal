@@ -36,7 +36,7 @@ Ex:
 curl -i -X POST -H "Content-Type:application/json" -d "{\"nome\": \"Enzo\", \"cargo\": \"Estagiario\", \"idade\": 28 }" https://basefuncton.herokuapp.com/users
 ```
 
-Ao executar o comando um log da ação será gerado na própria cmd, como : {"status": "success"}
+Ao executar o comando um log da ação será gerado na própria cmd, como : [{"cargo":"Estagiario","id":9,"idade":28,"nome":"Enzo"}], indicando que as novas informações foram coletadas.
 
 ### PUT:
 
