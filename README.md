@@ -36,6 +36,8 @@ Ex:
 curl -i -X POST -H "Content-Type:application/json" -d "{\"nome\": \"Enzo\", \"cargo\": \"Estagiario\", \"idade\": 28 }" https://basefuncton.herokuapp.com/users
 ```
 
+Ao executar o comando um log da ação será gerado na própria cmd, como : {"status": "success"}
+
 ### PUT:
 
 Abrir o cmd e digitar:
@@ -46,6 +48,7 @@ curl -i -X PUT -H "Content-Type:application/json" -d "{\"id\": 1, \"nome\": \"En
 
 Onde podem ser alterados os valores Enzo, Estagiario e 228 pelo novo valor desejado. O id não é modificável.
 
+Ao executar o comando um log da ação será gerado na própria cmd, como : {"status": "success"}
 
 ### DELETE:
 
@@ -55,6 +58,8 @@ curl -i -X DELETE -H "Content-Type:application/json" -d "{\"id\": 6 }" https://b
 
 Pode-se alterar o valor 6. Deletará os dados do usuário referente ao id 6, nesse caso.
 
+Ao executar o comando um log da ação será gerado na própria cmd, como : {"status": "success"}
 
 
-Também é possível utilizar o Postman para mandar os comandos de GET, POST, PUT e DELETE.
+
+#### Também é possível utilizar o Postman para mandar os comandos de GET, POST, PUT e DELETE.
