@@ -29,7 +29,8 @@ class Users(Resource):
 
         query = conn.execute('select * from user order by id desc limit 1')
         result = [dict(zip(tuple(query.keys()), i)) for i in query.cursor]
-        return jsonify(result)
+        return {"status": "success"}
+        #return jsonify(result)
 
     def put(self):
         conn = db_connect.connect()
