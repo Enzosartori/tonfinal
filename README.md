@@ -17,8 +17,8 @@ DELETE - Apaga um valor no banco de dados
 
 ### GET:
 
-Entrar na url: 	https://basefuncton.herokuapp.com/users para visualizar toda a base de dados
-		https://basefuncton.herokuapp.com/users/id , substituindo "id" pelo id do usuário você terá apenas as informações daquele usuário
+Entrar na url: 	https://basefuncton.herokuapp.com/users para visualizar toda a base de dados e 
+		https://basefuncton.herokuapp.com/users/id , substituindo "id" pelo id do usuário,para informações daquele usuário
 
 
 ### POST:
