@@ -51,8 +51,8 @@ DELETE - Apaga um valor no banco de dados
 
 ### GET:
 
-Entra na url: 	https://tonfinal.herokuapp.com/users para visualizar toda a base de dados
-		https://tonfinal.herokuapp.com/users/id , substituindo "id" pelo id do usuário você terá apenas as informações daquele usuário
+Entra na url: 	https://basefuncton.herokuapp.com/users para visualizar toda a base de dados
+		https://basefuncton.herokuapp.com/users/id , substituindo "id" pelo id do usuário você terá apenas as informações daquele usuário
 
 
 ### POST:
@@ -60,14 +60,14 @@ Entra na url: 	https://tonfinal.herokuapp.com/users para visualizar toda a base 
 Abrir o cmd e digitar: 
 
 ```sh
-curl -i -X POST -H "Content-Type:application/json" -d "{\"nome\": \"nomedesejado\", \"cargo\": \"cargodesejado\", \"idade\": númerodesejado }" https://tonfinal.herokuapp.com/users
+curl -i -X POST -H "Content-Type:application/json" -d "{\"nome\": \"nomedesejado\", \"cargo\": \"cargodesejado\", \"idade\": númerodesejado }" https://basefuncton.herokuapp.com/users
 ```
 
 substituir nomedesejado pelo nome do usuário, cargodesejado pelo cargo do usuário e númerodesejado pelo valor da idade em número.
 
 Ex:
 ```sh
-curl -i -X POST -H "Content-Type:application/json" -d "{\"nome\": \"Enzo\", \"cargo\": \"Estagiario\", \"idade\": 28 }" https://tonfinal.herokuapp.com/users
+curl -i -X POST -H "Content-Type:application/json" -d "{\"nome\": \"Enzo\", \"cargo\": \"Estagiario\", \"idade\": 28 }" https://basefuncton.herokuapp.com/users
 ```
 
 ### PUT:
@@ -75,7 +75,7 @@ curl -i -X POST -H "Content-Type:application/json" -d "{\"nome\": \"Enzo\", \"ca
 Abrir o cmd e digitar:
 
 ```sh
-curl -i -X PUT -H "Content-Type:application/json" -d "{\"id\": 1, \"nome\": \"Enzo\", \"cargo\": \"Estagiario\", \"idade\": 228 }" https://tonfinal.herokuapp.com/users
+curl -i -X PUT -H "Content-Type:application/json" -d "{\"id\": 1, \"nome\": \"Enzo\", \"cargo\": \"Estagiario\", \"idade\": 228 }" https://basefuncton.herokuapp.com/users
 ```
 
 Onde podem ser alterados os valores Enzo, Estagiario e 228 pelo novo valor desejado. O id não é modificável.
@@ -84,7 +84,7 @@ Onde podem ser alterados os valores Enzo, Estagiario e 228 pelo novo valor desej
 ### DELETE:
 
 ```sh
-curl -i -X DELETE -H "Content-Type:application/json" -d "{\"id\": 6 }" https://tonfinal.herokuapp.com/users 
+curl -i -X DELETE -H "Content-Type:application/json" -d "{\"id\": 6 }" https://basefuncton.herokuapp.com/users 
 ```
 
 Pode-se alterar o valor 6. Deletará os dados do usuário referente ao id 6, nesse caso.
