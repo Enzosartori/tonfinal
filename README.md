@@ -36,7 +36,7 @@ Ex:
 curl -i -X POST -H "Content-Type:application/json" -d "{\"nome\": \"Enzo\", \"cargo\": \"Estagiario\", \"idade\": 28 }" https://basefuncton.herokuapp.com/users
 ```
 
-Ao executar o comando um log da ação será gerado na própria cmd, como : [{"cargo":"Estagiario","id":9,"idade":28,"nome":"Enzo"}], indicando que as novas informações foram coletadas.
+Ao executar o comando um log da ação será gerado na própria cmd, como : {"status": "success"} indicando que o POST foi realizado corretamente.
 
 ### PUT:
 
@@ -48,7 +48,7 @@ curl -i -X PUT -H "Content-Type:application/json" -d "{\"id\": 1, \"nome\": \"En
 
 Onde podem ser alterados os valores Enzo, Estagiario e 228 pelo novo valor desejado. O id não é modificável.
 
-Ao executar o comando um log da ação será gerado na própria cmd, como : {"status": "success"}
+Ao executar o comando um log da ação será gerado na própria cmd, como : {"status": "success"} indicando que o PUT foi realizado corretamente.
 
 ### DELETE:
 
@@ -58,7 +58,7 @@ curl -i -X DELETE -H "Content-Type:application/json" -d "{\"id\": 6 }" https://b
 
 Pode-se alterar o valor 6. Deletará os dados do usuário referente ao id 6, nesse caso.
 
-Ao executar o comando um log da ação será gerado na própria cmd, como : {"status": "success"}
+Ao executar o comando um log da ação será gerado na própria cmd, como : {"status": "success"} indicando que o DELETE foi realizado corretamente.
 
 
 
