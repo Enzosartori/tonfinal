@@ -44,7 +44,7 @@ class Users(Resource):
        
         query = conn.execute("select * from user where id={0} ".format(id))
         result = [dict(zip(tuple(query.keys()), i)) for i in query.cursor]
-        return jsonify(result)
+        return {"status": "success"}
 
     def delete(self): 
         conn = db_connect.connect()
